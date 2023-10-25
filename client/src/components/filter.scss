@@ -1,0 +1,86 @@
+/* //styling for form */
+.auth-form-container3 {
+  padding: 2.5rem;
+  margin: 5rem;
+  margin-right: 10.5%;
+}
+
+/* //child-selector */
+.auth-form-container3 > h2 {
+  margin-top: -10%;
+  margin-left: 500px;
+}
+
+/* //Styling for background */
+.search-bg {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 95% 60%;
+  background-color: rgb(181, 220, 237);
+  opacity: 0.8;
+}
+
+/* //Style for buttonns */
+.btn-search {
+  border: none;
+  bottom: 100px;
+  margin-top: 60px;
+  width: 200px;
+  background-color: rgb(234, 250, 255);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: small;
+  font-weight: bold;
+  color: rgb(125, 152, 164);
+}
+
+.btn-send {
+  border: none;
+  margin-top: 15px;
+  width: 100px;
+  background-color: rgb(237, 243, 245);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: small;
+  font-weight: bold;
+  color: rgb(125, 152, 164);
+}
+
+.name {
+  font-size: large;
+  font-weight: bold;
+}
+
+.details {
+  font-style: italic;
+}
+
+/* // Add shadows to create the "card" effect */
+.card {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  transition: 0.3s;
+  padding: 1rem;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/* // On mouse-over, add a deeper shadow  */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* // Add some padding inside the card container  */
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  background-color: azure;
+}

@@ -1,0 +1,27 @@
+//For vedrtically placing the form elements
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+//using mixin property of scss for background
+//Background styling
+@import "signup";
+.test2 {
+  @include background;
+  background-color: rgb(181, 220, 237);
+  margin-left: -67%;
+  margin-top: -75%;
+  background-image: url("../images/Interview.jpg");
+}
+
+//Style for form layout and border
+@import "variables";
+@media screen and (min-width: 600px) {
+  .auth-form-container2 {
+    padding: 1.8rem;
+    border: 1px solid rgb(8, 105, 144);
+    border-radius: $border-radius; //used variables propert of scss
+    margin: $margin;
+  }
+}

@@ -1,0 +1,41 @@
+//For vertically placing the form elemnts
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+//Using mixin property of scss in background
+@mixin background {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: rgb(9, 9, 117);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 95% 60%;
+  opacity: 0.8;
+}
+
+//Background styling
+.test1 {
+  @include background;
+  background-color: rgb(181, 220, 237);
+
+  margin-left: -67%;
+  margin-top: -81%;
+  // background-image: url("../components/img/Interview.jpg");
+  background-image: url("../images/Interview.jpg");
+}
+
+//style for form layout and border
+@import "variables";
+@media screen and (min-width: 600px) {
+  .auth-form-container1 {
+    padding: 1.8rem;
+    border: 1px solid rgb(8, 105, 144);
+    border-radius: $border-radius; //Used variables property of scss
+    margin: $margin;
+  }
+}

@@ -1,0 +1,26 @@
+//styling for form
+.auth-form-container {
+  padding: 2.5rem;
+  border: 2px solid rgb(242, 246, 248);
+  border-radius: 10px;
+  margin: 2rem;
+  margin-right: 2%;
+}
+
+//For vertically placing the form elements
+.login-form1 {
+  display: flex;
+  flex-direction: column;
+}
+
+//used mixin property of scss for background
+@import "signup";
+.test3 {
+  padding-top: -10px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(104, 183, 240),
+    rgb(152, 188, 218)
+  );
+  @include background;
+}
