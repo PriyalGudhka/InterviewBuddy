@@ -5,7 +5,7 @@ Interview Buddy
 
 Project Description: -
 
-Jobster is a MERN Stack Network application that allows users to connect and network for the purpose of exchanging resources, getting referrals, asking for advice, and sharing ideas and tips based on the target company and role of a person.
+Interview Buddy is a MERN Stack Network application that allows users to connect and network for the purpose of exchanging resources, getting referrals, asking for advice, and sharing ideas and tips based on the target company and role of a person.
 
 Domain Model:-
 
